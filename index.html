@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/beb24498dc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Todo List</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="titulo"></h1>
+        <form action="">
+          <input
+            type="text"
+            id="trefa-digitada"
+            placeholder="Digite sua tarefa..."
+          />
+          <button class="adicionar-tarefa">Salvar</button>
+        </form>
+
+        <section class="secao-tarefas">
+          <div class="contador-tarefas">
+            <div>
+              <p>Tarefas: <span id="tarefas">2</span></p>
+            </div>
+            <div>
+              <p>Tarefas concluidas: <span id="tarefas-concluidas">2</span></p>
+            </div>
+          </div>
+
+          <ul id="tarefas">
+            <li class="tarefa">
+              <h3>tarefa teste</h3>
+
+              <div class="botoes">
+                <button class="remover">
+                  <i class="fa-solid fa-trash-can"></i>
+                </button>
+                <button class="editar">
+                  <i class="fa-regular fa-pen-to-square"></i>
+                </button>
+                <button class="concluir">
+                  <i class="fa-regular fa-circle-check"></i>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
