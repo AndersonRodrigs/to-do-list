@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css" />
+
     <!-- Fontawesome -->
     <script
       src="https://kit.fontawesome.com/beb24498dc.js"
@@ -20,23 +24,22 @@
         <form action="">
           <input
             type="text"
-            id="trefa-digitada"
+            id="tarefa-digitada"
             placeholder="Digite sua tarefa..."
           />
           <button class="adicionar-tarefa">Salvar</button>
         </form>
 
         <section class="secao-tarefas">
+  
           <div class="contador-tarefas">
-            <div>
-              <p>Tarefas: <span id="tarefas">2</span></p>
-            </div>
-            <div>
-              <p>Tarefas concluidas: <span id="tarefas-concluidas">2</span></p>
-            </div>
+            <!-- REMOVI UMA DIV AQUI -->
+            <p>Tarefas: <span id="tarefas">2</span></p>
+
+            <p>Tarefas concluidas: <span id="tarefas-concluidas">2</span></p>
           </div>
 
-          <ul id="tarefas">
+          <ul class="tarefas" id="tarefas">
             <li class="tarefa">
               <h3>tarefa teste</h3>
 
