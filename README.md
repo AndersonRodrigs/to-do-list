@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Projeto realizado com colaboração, afim de treinar trabalho em equipe e trocar conhecimentos e experiências !
+Projeto realizado com colaboração, a fim de treinar trabalho em equipe e trocar conhecimentos e experiências! 
 
 ## ✍️ Processo
 
@@ -14,16 +14,16 @@ Projeto realizado com colaboração, afim de treinar trabalho em equipe e trocar
 
 ## ⚙ Funcionalidades
 
-    - Criação de novas tarefas
-    - Edição de tarefas criadas
-    - Marcação de tarefas concluidas
-    - Exclusao de tarefas
+    - Criação de novas tarefas 
+    - Edição de tarefas criadas 
+    - Marcação de tarefas concluídas 
+    - Exclusão de tarefas 
 
 >Acesse a página on-line: <a href="https://to-do-list-8xis4z7xn-andersonrodrigs.vercel.app/?" target=_blank> To Do List </a>
 
 
 🖱️ A página
-<img src="src/design/to-do-list.jpg" alt="Imagem exibindo a versão desktop  do site">
+<img src="src/design/to-do-list.png" alt="Imagem exibindo a versão desktop  do site">
 
 
 👩‍💻 Dev's
