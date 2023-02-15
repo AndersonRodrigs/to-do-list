@@ -25,7 +25,6 @@ Projeto realizado com colaboração, a fim de treinar trabalho em equipe e troca
 🖱️ A página
 <img src="src/design/to-do-list.png" alt="Imagem exibindo a versão desktop  do site">
 
-
 👩‍💻 Dev's
 
 <table align="center">
