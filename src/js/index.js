@@ -71,7 +71,7 @@ function remover(idTarefa) {
 
   numTarefas.innerHTML = contador
 
-  if (contadorConcluidas > 0) {
+  if (contadorConcluidas > 0 && idTarefa.classList.contains('tarefa-concluida')) {
     contadorConcluidas--
     tarefasConcluidas.innerHTML = contadorConcluidas
   }
